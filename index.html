@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reaction Tester</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <div class="heading">
+            <h1>Reaction Tester</h1>
+        </div>
+        <div class="secondaryHeader">
+            <p class="display">Click on the circle to test your reaction time.</p>
+        </div>
+
+        <div class="section">
+
+            <div class="time">Time Taken:&nbsp;
+                <span id="timeDisplay">
+                    <strong>0</strong>
+                </span>
+
+            </div>
+            <div class="play" id="gayabKaro">
+                <button id="playAgain1">
+                    <p>PlayAgian?</p>
+                </button>
+            </div>
+            <!-- <div class="userField">
+                <p>Times?</p>
+                <input id="input" type="text" placeholder="No.">
+            </div> -->
+            <div class="userField">
+                <p>Playing for 10.</p>
+            </div>
+        </div>
+
+        <div class="container clear-fix">
+            <button id="button">
+                <div class="circle" id="circle">
+                </div>
+            </button>
+
+            <div class="gameDetails displayNone" id="changingClass2">
+                <p class="firstChild">GameOver!</p>
+                <p class="secondChild">Your Average time is: &nbsp;
+                    <span id="avgTimeDisplay" class="avgTimeDisplay">20</span>
+                    <span id="secmin">second</span>
+                </p>
+                <button id="playAgain">
+                    <p class="thirdChild">PlayAgian ?</p>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
